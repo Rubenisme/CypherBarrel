@@ -8,9 +8,9 @@ The key is a suite of numbers between 1 and 9, the message a space separated lis
 To encrypt a message, we repeatedly travel through the numbers of the key from left to right and then from right to left and shift the letter in the alphabet by the corresponding number.
 
 Example:
-1
-key 1595
-message hello world
+1  
+key 1595  
+message hello world  
 
 The top line is how many messages there are.
 We start processing the words and using the digits from the key from left to right:
