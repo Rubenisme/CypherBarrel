@@ -7,7 +7,7 @@ The cypher works with a key and a message.
 The key is a suite of numbers between 1 and 9, the message a space separated list of lower case words.
 To encrypt a message, we repeatedly travel through the numbers of the key from left to right and then from right to left and shift the letter in the alphabet by the corresponding number.
 
-Example:
+Example:  
 1  
 key 1595  
 message hello world  
